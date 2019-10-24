@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectColorActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select Color" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupColors"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rdbRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Red"
+            android:textColor="#ff0000" />
+
+        <RadioButton
+            android:id="@+id/rdbBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blue"
+            android:textColor="#0000ff" />
+
+        <RadioButton
+            android:id="@+id/rdbYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yellow"
+            android:textColor="#ffff00" />
+
+        <RadioButton
+            android:id="@+id/rdbBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Black"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rdbGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Green"
+            android:textColor="#00ff00" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK" />
+</LinearLayout>

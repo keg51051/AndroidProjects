@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Number Guessing Game</string>
+    <string name="app_title">Number Guessing Game</string>
+    <string name="app_rules">Game rules: press the button for a larger number, and you will earn a point, if you get it wrong, you ‘ll lose a point. Earn 5 points to win the game!</string>
+    <string name="point">points: 0</string>
+</resources>
